@@ -23,7 +23,27 @@ body > header > div > h3 {
 header {
   text-align: center; 
 }
+
+.btn {
+  display: block;
+  padding: 15px;
+  border-radius: 100px;
+  width: 25px;
+  margin-left: auto;
+  margin-right: auto; 
+  text-decoration: none;
+  color: #000;
+  font-family: 'Oswald',serif;
+  transition: transform 2s;
+}
+
+.btn:hover {
+  background-color: #4E6E5D;
+  color: #fff;
+  transform: rotate(180deg) scale(1.5);
+}
 /* --------------- Header Styling Zone ------------------- */
+
 
 
 /* --------------- Nav Bar Styling Zone ------------------- */
@@ -55,6 +75,80 @@ header {
 
 
 
+/* --------------- Intro Styling Zone ------------------- */
+.nature {
+  background: url(/Images/nature.png);
+  border: solid 2px #261C15;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  width: 500px;
+  transition: width 2s;
+}
+
+.nature:hover {
+  width: 800px;
+}
+
+.universe {
+  background: url(/Images/universe.png);
+  border: solid 2px #261C15;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  width: 500px;
+  transition: width 2s;
+}
+
+.universe:hover {
+  width: 800px;
+}
+
+.music {
+  background: url(/Images/music.png);
+  border: solid 2px #261C15;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  width: 500px;
+  transition: width 2s;
+}
+
+.music:hover {
+  width: 800px;
+}
+
+.intro-sec {
+  margin-top: 80px;
+}
+
+/* --------------- Intro Styling Zone ------------------- */
+
+
 
 /* --------------- General Styling Zone ------------------- */
 img {
@@ -62,7 +156,8 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 80px;
+  margin-top: 1px;
+  margin-bottom: 80px;
   border: 3px solid #261C15;
 }
 
@@ -73,7 +168,7 @@ body {
 
 p {
   font-family: 'Montserrat', sans-serif;
-  font-size: 13px;
+  font-size: 15px;
 }
 
 h1, h2, h3 {
@@ -89,8 +184,12 @@ hr {
 }
 
 section {
-  margin: 75px;
+  margin: 100px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 /* --------------- General Styling Zone ------------------- */
 
 
@@ -117,4 +216,6 @@ section {
 .social:hover {
   background-color: #4E6E5D;
 }
+
+
 /* --------------- Contact Info Styling Zone ------------------- */
