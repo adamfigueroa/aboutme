@@ -8,7 +8,7 @@ body > header > div > h2 {
   font-size: 62px;
   padding-top: 15px;
   margin-bottom: 1px;
-  color: black;
+  color: #4E6E5D;
 }
 
 body > header > div > h3 {
@@ -49,10 +49,14 @@ header {
 }
 
 .nav li a:hover {
-  background-color: #111;
+  background-color: #4E6E5D;
 }
 /* --------------- Nav Bar Styling Zone ------------------- */
 
+
+
+
+/* --------------- General Styling Zone ------------------- */
 img {
   border-radius: 10px;
   display: block;
@@ -68,7 +72,8 @@ body {
 }
 
 p {
-  font-family: 'Montserrat', sans-serif
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
 }
 
 h1, h2, h3 {
@@ -76,5 +81,40 @@ h1, h2, h3 {
 }
 
 hr {
-  
+  border: 0;
+  width: 50%;
+  height: 5px;
+  color: #261C15;
+  background-color: #261C15;
 }
+
+section {
+  margin: 75px;
+}
+/* --------------- General Styling Zone ------------------- */
+
+
+
+/* --------------- Contact Info Styling Zone ------------------- */
+.social {
+  background-color: #261C15;
+  border: solid 2px black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.social a {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Oswald',serif;
+}
+
+.social:hover {
+  background-color: #4E6E5D;
+}
+/* --------------- Contact Info Styling Zone ------------------- */
